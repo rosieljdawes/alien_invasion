@@ -11,7 +11,7 @@ class AlienInvasion:
         self.screen = pygame.display.set_mode((1200, 800))
         pygame.display.set_caption("Alien Invasion")
     
-    def run_game():
+    def run_game(self):
         """start the main loop for the game"""
         while True:
             # what for keyboard and mouse events
